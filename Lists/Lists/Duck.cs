@@ -36,5 +36,11 @@ namespace Lists
                 return 0;
             }
         }
+
+        //override toString for debug purposes
+        public override string ToString()
+        {
+            return "A " + Size + " inch " + Kind.ToString(); 
+        }
     }
 }
