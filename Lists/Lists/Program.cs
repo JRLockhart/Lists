@@ -22,6 +22,9 @@ namespace Lists
                 new Duck(){Kind = KindOfDuck.Decoy, Size = 13},
             };
 
+            //sort from smallest to biggest
+            ducks.Sort();
+
             //readkey is used to keep the console open until a key is pressed
             Console.ReadKey();
         }
