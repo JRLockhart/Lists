@@ -22,6 +22,23 @@ namespace Lists
                 new Duck(){Kind = KindOfDuck.Decoy, Size = 13},
             };
 
+            //upcast bird to ducks
+            IEnumerable<Bird> upcastDucks = ducks;
+
+            //add the content of list birds to list of ducks
+            List<Bird> birds = new List<Bird>();
+            birds.Add(new Bird() { Name = "Feathers" });
+            birds.AddRange(ducks);
+            birds.Add(new Penguin() { Name = "George" });
+
+            //loop through birds and print contents
+            foreach (Bird bird in birds)
+            {
+                Console.WriteLine(bird);
+            }
+
+            Console.WriteLine("");
+
             //print value before sort
             PrintDucks(ducks);
 
