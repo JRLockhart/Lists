@@ -46,6 +46,7 @@
     <Compile Include="Duck.cs" />
     <Compile Include="DuckComparerByKind.cs" />
     <Compile Include="DucksComparerBySize.cs" />
+    <Compile Include="Penguin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
