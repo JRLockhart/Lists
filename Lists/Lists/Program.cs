@@ -22,6 +22,9 @@ namespace Lists
                 new Duck(){Kind = KindOfDuck.Decoy, Size = 13},
             };
 
+            //print value before sort
+            PrintDucks(ducks);
+
             //sort from smallest to biggest and print value
             ducks.Sort();
             PrintDucks(ducks);
